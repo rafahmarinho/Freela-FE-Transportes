@@ -18,9 +18,9 @@
 
 /* Colors */
 :root {
-  --color-default: #222222;
-  --color-primary: #008374;
-  --color-secondary: #f85a40;
+  --color-default: #000000;
+  --color-primary: 	#D3D3D3;
+  --color-secondary: #FF4500;
 }
 
 /* Smooth scroll behavior */
@@ -42,7 +42,7 @@ a {
 }
 
 a:hover {
-  color: #00b6a1;
+  color: #FF4500;
   text-decoration: none;
 }
 
@@ -248,7 +248,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .topbar {
-  background: #00796b;
+  background: #FF4500;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -300,8 +300,8 @@ section {
 .header {
   transition: all 0.5s;
   z-index: 997;
-  height: 90px;
-  background-color: var(--color-primary);
+  height: 50px;
+  background-color: #d3d3d373;
 }
 
 .header.sticked {
@@ -323,7 +323,7 @@ section {
   margin: 0;
   font-weight: 600;
   letter-spacing: 0.8px;
-  color: #fff;
+  color: #000000;
   font-family: var(--font-primary);
 }
 
@@ -373,7 +373,7 @@ section {
     font-family: var(--font-secondary);
     font-size: 16px;
     font-weight: 600;
-    color: rgba(255, 255, 255, 0.6);
+    color: #000000;
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
@@ -382,6 +382,7 @@ section {
   .navbar a i,
   .navbar a:focus i {
     font-size: 12px;
+    color: #000000;
     line-height: 0;
     margin-left: 5px;
   }
@@ -410,7 +411,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: #FF4500;
   }
 
   .navbar .dropdown ul {
@@ -1915,7 +1916,8 @@ section {
 .hero {
   width: 100%;
   position: relative;
-  background: var(--color-primary);
+  background-image: url(../img/hero-bg2.png);
+  background-size: cover;
   padding: 60px 0 0 0;
 }
 
@@ -1929,11 +1931,11 @@ section {
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #fff;
+  color: #ffffff;
 }
 
 .hero p {
-  color: rgba(255, 255, 255, 0.6);
+  color: 	#Ffffff;
   font-weight: 400;
   margin-bottom: 30px;
 }
@@ -1947,8 +1949,8 @@ section {
   padding: 14px 40px;
   border-radius: 50px;
   transition: 0.3s;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  background: 	#FF4500;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
   border: 2px solid rgba(255, 255, 255, 0.1);
 }
@@ -1974,7 +1976,7 @@ section {
 }
 
 .hero .btn-watch-video:hover i {
-  color: #fff;
+  color: #FF4500;
 }
 
 @media (max-width: 640px) {
