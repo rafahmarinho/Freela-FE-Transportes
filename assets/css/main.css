@@ -42,7 +42,7 @@ a {
 }
 
 a:hover {
-  color: #FF4500;
+  color: #D2691E;
   text-decoration: none;
 }
 
@@ -411,7 +411,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #FF4500;
+    color: #D2691E;
   }
 
   .navbar .dropdown ul {
@@ -439,7 +439,7 @@ section {
     font-size: 15px;
     text-transform: none;
     font-weight: 600;
-    color: #FF4500;
+    color: #D2691E;
   }
 
   .navbar .dropdown ul a i {
@@ -510,7 +510,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: #FF4500;
+    background: #D2691E;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -556,7 +556,7 @@ section {
   .navbar .getstarted:hover,
   .navbar .getstarted:focus:hover {
     color: #fff;
-    background: rgba(0, 131, 116, 0.8);
+    background: #D2691E;
   }
 
   .navbar .dropdown ul,
@@ -566,8 +566,8 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    background-color: #FF4500;
-    border: 1px solid #FF4500;
+    background-color: #D2691E;
+    border: 1px solid #D2691E;
   }
 
   .navbar .dropdown>.dropdown-active,
@@ -609,7 +609,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: #FF4500;
+    background: #D2691E;
     z-index: 9996;
   }
 }
@@ -697,7 +697,7 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(0, 131, 116, 0.7);
+  border: 5px solid #D2691E;
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -865,7 +865,7 @@ section {
   width: 94px;
   height: 94px;
   margin-bottom: 20px;
-  background: radial-gradient(var(--color-primary) 50%, rgba(0, 131, 116, 0.4) 52%);
+  background: radial-gradient(var(--color-primary) 50%, #D2691E 52%);
   border-radius: 50%;
   display: inline-block;
   position: relative;
@@ -1031,7 +1031,7 @@ section {
 }
 
 .services .service-item:hover .icon:before {
-  background: #00b6a1;
+  background: #D2691E;
 }
 
 .services .service-item:hover h3 {
@@ -1085,7 +1085,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #009d8b;
+  color: #D2691E;
   font-size: 26px;
   line-height: 0;
 }
@@ -1372,7 +1372,7 @@ section {
 
 .portfolio-details .portfolio-description .testimonial-item .quote-icon-left,
 .portfolio-details .portfolio-description .testimonial-item .quote-icon-right {
-  color: #009d8b;
+  color: #D2691E;
   font-size: 26px;
   line-height: 0;
 }
@@ -1515,7 +1515,7 @@ section {
   height: 86px;
   width: 86px;
   border-radius: 50%;
-  background: #87c1bb;
+  background: #D2691E;
   transition: all 0.3s ease-out 0s;
   transform: translateZ(-1px);
 }
@@ -1565,7 +1565,7 @@ section {
 }
 
 .pricing ul i {
-  color: #059652;
+  color: #D2691E;
   font-size: 24px;
   padding-right: 3px;
 }
@@ -1587,7 +1587,7 @@ section {
   padding: 10px 40px;
   border-radius: 50px;
   color: var(--color-primary);
-  border: 1px solid rgba(0, 131, 116, 0.2);
+  border: 1px solid #D2691E;
   transition: none;
   font-size: 16px;
   font-weight: 600;
@@ -1755,7 +1755,7 @@ section {
 
 .contact .info-item {
   width: 100%;
-  background-color: #009282;
+  background-color: #D2691E;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -1828,7 +1828,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #059652;
+  background: #D2691E;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1848,7 +1848,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #059652;
+  border: 3px solid #D2691E;
   border-top-color: #fff;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1887,7 +1887,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(0, 131, 116, 0.8);
+  background: #D2691E;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1950,7 +1950,7 @@ section {
   border-radius: 50px;
   transition: 0.3s;
   color: #ffffff;
-  background: 	#FF4500;
+  background: 	#D2691E;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
   border: 2px solid rgba(255, 255, 255, 0.1);
 }
@@ -1976,7 +1976,7 @@ section {
 }
 
 .hero .btn-watch-video:hover i {
-  color: #FF4500;
+  color: #D2691E;
 }
 
 @media (max-width: 640px) {
@@ -2010,7 +2010,7 @@ section {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: #008d7d;
+  background: #D2691E;
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -2042,7 +2042,7 @@ section {
 }
 
 .hero .icon-box:hover {
-  background: #009786;
+  background: #D2691E;
 }
 
 .hero .icon-box:hover .title a,
@@ -2393,7 +2393,7 @@ section {
 }
 
 .blog .sidebar .search-form form button:hover {
-  background: rgba(0, 131, 116, 0.8);
+  background: #D2691E;
 }
 
 .blog .sidebar .categories ul {
